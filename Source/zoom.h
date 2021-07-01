@@ -21,7 +21,7 @@ std::string findConfId(std::string link) { // This function is used to find Zoom
         }
         if (foundConfId.length() > 16) {
             return "Error"; /* Checks for possible overflow. The limit is set at 16,
-            a number which likely won't be reached with all nowadays' generations dying out!*/
+            a number which likely won't be reached without all nowadays' generations dying out!*/
         }
     }
     bool containsNum = foundConfId.find_first_not_of("0123456789") == std::string::npos;
