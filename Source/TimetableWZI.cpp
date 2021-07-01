@@ -47,7 +47,8 @@ void askSubjects(vector<string>& total, vector<int>& subOnDays, string weekDay) 
 to create a timetable */
 
     int subCount;
-
+    
+    system("cls");
     cout << weekDay << '\n';
     cout << "Enter the subject count\n";
     cin >> subCount;
