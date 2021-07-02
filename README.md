@@ -10,7 +10,7 @@ This program was built using Visual Studio 2019 and written in C++, therefore a 
 Unfortunately some antivirus software may detect my program as a virus and there is nothing I can do about it. It is a false positive, but feel free to build it using instructions below!
 
 1. Download [Visual Studio 2019 Community](https://visualstudio.microsoft.com/vs/).
-2. Open the downloaded setup executable. Shortly after, a program called Visual Studio Installer should be installed on your computer. It will automatically open a window to select a workload. Uncheck all other boxes if checked, check **Desktop development with C++**, then click the **Install** button.
+2. Open the downloaded setup executable. Shortly after, a program called **Visual Studio Installer** should be installed on your computer. It will automatically open a window to select a workload. Uncheck all other boxes if checked, check **Desktop development with C++**, then click the **Install** button.
 3. Download [an archive file of TimetableWZI's `main` branch](https://github.com/Tomurisk/TimetableWZI/archive/refs/heads/main.zip) or clone using `git`.
 4. Supported file formats should be set to open with Visual Studio. Navigate to **Sources** directory and open the solution (.sln) file.
 5. Change solution's configuration to **Release** and platform to **x86**.
