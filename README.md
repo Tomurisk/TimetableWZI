@@ -17,5 +17,5 @@ Unfortunately some antivirus software may detect my program as a virus and there
 3. Download [an archive file of TimetableWZI's `main` branch](https://github.com/Tomurisk/TimetableWZI/archive/refs/heads/main.zip) or clone using `git`.
 4. Supported file formats should be set to open with Visual Studio. Navigate to **Sources** directory and open the solution (.sln) file.
 5. Change solution's configuration to **Release** and platform to **x86**.
-6. Select **TimetableWZI** element in Solution Explorer, right click on it and select **Properties**. Navigate to Configuration Properties > C/C++ > Preprocessor > Preprocessor Definitions, then add `_CRT_SECURE_NO_WARNINGS` to the bottom.
+6. Select **TimetableWZI** element in Solution Explorer, right click on it and select **Properties**. Navigate to **Configuration Properties** > **C/C++** > **Preprocessor** > **Preprocessor Definitions**, then add `_CRT_SECURE_NO_WARNINGS` to the bottom.
 7. Build the program with **Local Windows Debugger**. The output executable will be placed in a separate folder called **Release**, located in **Sources**.
