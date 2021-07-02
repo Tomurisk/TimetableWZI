@@ -1,6 +1,9 @@
 # TimetableWZI
 Timetable**WZI** (*Timetable **with Zoom integration***) is a simple console application to ease the management of school subjects, while providing an efficient way of accessing Zoom remote classes.
 
+![timetable](https://user-images.githubusercontent.com/54245284/124320703-0b33a780-db85-11eb-8ee6-a65cd0897322.PNG)
+
+
 # Requirements
 This program was built using Visual Studio 2019 and written in C++, therefore a [32-bit Visual C++ 2015-2019 redistributable](https://aka.ms/vs/16/release/vc_redist.x86.exe) is required. It should be already present in most systems running Windows 10.
 
